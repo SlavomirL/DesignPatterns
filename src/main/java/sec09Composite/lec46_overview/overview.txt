@@ -1,0 +1,5 @@
+- composite = a mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner
+
+- so key feature of composite is to have objects that can be treated both in a singular manner as an singular object or as a collection of objects
+
+-

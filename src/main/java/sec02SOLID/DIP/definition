@@ -1,0 +1,3 @@
+dependency inversion principle
+- high level modules should not depend on low level modules. both should depend on abstractions (abstract class or interface)
+- abstractions should not depend on details - details should depend on abstractions (abstract class or interface)

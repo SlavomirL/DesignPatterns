@@ -1,0 +1,3 @@
+liskov substitution principle
+- you should be able to substitute a subclass for baseclass
+- if you have an API that takes a baseclass, you should be able to stick subclass in there without breaking it in any way

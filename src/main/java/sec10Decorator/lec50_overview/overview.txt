@@ -1,0 +1,15 @@
+when to use:
+- want to augment an object with additional functionality
+- do not want to rewrite or alter existing code (OCP)
+- want to keep new functionality separate (SRP)
+- need to be able to interact with existing structures
+
+
+decorator facilitates the addition of behaviors to individual objects without inheriting from them
+
+
+summary:
+- a decorator keeps the reference to the decoreted object
+- may or may not forward calls - IDE can generated delegated members
+- exists in a static variation X<Y<Foo>> ( /*unpleasant constructor args */
+- very limited due to type erasure and inability to inherit from type parameters

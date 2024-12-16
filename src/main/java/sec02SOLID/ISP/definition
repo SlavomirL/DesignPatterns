@@ -1,0 +1,5 @@
+interface segregation principle
+- how to split interfaces into smaller interfaces
+- aim to put absolute minimum into certain interface to avoid implementing something that will not be needed
+
+YAGNI = you aint going to need it - avoid implementing something that will not be needed

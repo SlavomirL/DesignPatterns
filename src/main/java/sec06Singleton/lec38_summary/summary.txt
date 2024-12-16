@@ -1,0 +1,4 @@
+- making a 'safe' singleton is easy: construct a static Lazy<T> and return its Value
+- singletons are difficult to test
+- instead of directly using a singleton, consider depending on an abstraction (eg. interface)
+- consider defining singleton lifetime in DI container
