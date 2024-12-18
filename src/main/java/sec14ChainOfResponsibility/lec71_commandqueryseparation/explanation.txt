@@ -1,0 +1,3 @@
+// command = asking for an action or change (ie. please set your attack value to 2)
+// query = asking for information (ie. please give me your attack value)
+// command query separation = having separate means of sending commands and queries to ie. direct field access

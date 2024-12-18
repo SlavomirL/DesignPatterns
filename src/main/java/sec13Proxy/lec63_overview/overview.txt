@@ -1,0 +1,9 @@
+- proxy gives you the same interface but entirely different behaviour
+
+- proxy is a class that functions as an interface to a particular resource. That resource may be remote, expensive to construct, or may require logging or some other added functionality
+
+-summary:
+    -  a proxy has the same interface as underlying object
+    - to create a proxy, simply replicate the existing interface of an object
+    - add relevant functionality to the redefined member functions
+    - different proxies (communication, logging, caching,...) have completely different behaviors
